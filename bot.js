@@ -59,7 +59,7 @@ client.on('message', message => {
 
 client.on('message', message => {
      if (message.author.bot) return;
-     if(message.content.toLowerCase().includes("hi")) {
+     if(message.content.toLowerCase().includes("hello")) {
                message.channel.send("What’s up bitches! I’m a man cheetah! Wanna do something with this?")
   	}
 
