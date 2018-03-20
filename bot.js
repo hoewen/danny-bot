@@ -41,6 +41,62 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("huh")) {
+               message.channel.send("We've been over this -- your mother's a giant whore!")
+  	}
+
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("lol")) {
+               message.channel.send("I've seen many pigs eat many men -- it was a blood bath.")
+  	}
+
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("hi")) {
+               message.channel.send("What’s up bitches! I’m a man cheetah! Wanna do something with this?")
+  	}
+
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("how")) {
+               message.channel.send("Only two words came up! Asians and creampies.")
+  	}
+
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("do")) {
+               message.channel.send("Do you have some sort of donkey-brain database?")
+  	}
+
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("why")) {
+               message.channel.send("I need an Advil, a roll of duct tape, a pack of peanuts, and four beers.")
+  	}
+
+});
+
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("they")) {
+               message.channel.send("They say I can't drink on a plane. They say I can't bang on a plane. They say I can't be a doctor!? A pilot?!")
+  	}
+
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
