@@ -33,6 +33,14 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("what")) {
+               message.channel.send("You got to pay the troll toll if you want to get into this boy's hole!")
+  	}
+
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
