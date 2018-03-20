@@ -98,5 +98,37 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("like")) {
+               message.channel.send("I don't like this painting, Charlie. It's smug aura mocks me.")
+  	}
+
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("woah")) {
+               message.channel.send("One of the things I like doing most is banging whores.")
+  	}
+
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("where")) {
+               message.channel.send("It's going to be a very classy affair.")
+  	}
+
+});
+
+client.on('message', message => {
+     if (message.author.bot) return;
+     if(message.content.toLowerCase().includes("help")) {
+               message.channel.send("Would you like an egg in this trying time?")
+  	}
+
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
